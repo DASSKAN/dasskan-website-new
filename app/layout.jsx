@@ -1,0 +1,11 @@
+export const metadata = {
+  title: "DASSKAN Technologies",
+  description: "Empowering businesses through purposeful innovation.",
+};
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className="bg-slate-950 text-white">{children}</body>
+    </html>
+  );
+}
